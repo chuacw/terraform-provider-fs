@@ -5,8 +5,8 @@ import (
 )
 
 func resourceFileCreate(d *schema.ResourceData, m interface{}) error {
-	name := d.Get(fsNAME).(string)
-	d.SetId(name)
+	// name := d.Get(fsNAME).(string)
+	// d.SetId(name)
 	return resourceDirectoryRead(d, m)
 }
 
