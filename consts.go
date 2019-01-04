@@ -1,6 +1,9 @@
 package main
 
 const (
-	fsNAME = "name"
-	fsMODE = "mode"
+	fsNAME     string = "name"
+	fsMODE     string = "mode"
+	fsISDIR    string = "isdir"
+	fsEXISTS   string = "exists"
+	fsFILENAME string = "filename"
 )

@@ -11,5 +11,8 @@ func FSProvider() *schema.Provider {
 			"fs_directory": resourceDirectory(),
 			"fs_file":      resourceFile(),
 		},
+		DataSourcesMap: map[string]*schema.Resource{
+			"fs_file": dataSourceFile(),
+		},
 	}
 }
